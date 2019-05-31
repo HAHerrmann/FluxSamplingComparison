@@ -9,3 +9,12 @@ The `assessConvergence.m` assesses convergence in the sampling chains based on t
 
 
 ### Flux Sampling to Study Plant Acclimation to Cold 
+
+We then constrained the [Arnold2014](https://www.ncbi.nlm.nih.gov/pubmed/24808102) model with photosynthesis and metabolite data of plants grown at control conditions and of plants which had recevied one week of cold treatment at maturity. `ExpData.xlsx` contains the raw data which is analysed and summarized using the `ExpData.R` file. In-cabinet photosynthesis measurements and metabolites assays were done as outlined [here](https://www.ncbi.nlm.nih.gov/pubmed/27440755).
+
+Photosynthesis constraints were converted from area to FW measurements (file `XX` contains the conversation ratios) and scaled to a constant flux over an 8 h photoperiod. Constraints were applied to the genome-scale metabolic model of Arnold2014 as done in `XX` and sampling was done using the CHRR algorithm (`Sampling_CHRR.m`). Flux distributions were then plotted to a PDF file (`XX`). 
+
+
+### Contact
+- helena.herrmann@manchester.ac.uk 
+- jean-marc.schwartz@manchester.ac.uk
