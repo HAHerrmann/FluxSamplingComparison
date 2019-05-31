@@ -1,6 +1,6 @@
 ### Flux Sampling to Study Metabolic Networks 
 
-In the folder `ComparingAlgorithms` we present an analysis pipeline for comparing the three flux sampling algorithms (CHRR, OPTGP, and ACHR) available in the [COBRA Toolbox](https://opencobra.github.io/cobratoolbox/stable/) (MATLAB) and [COBRApy](https://cobrapy.readthedocs.io/en/latest/) (Python). 
+In the folder *ComparingAlgorithms* we present an analysis pipeline for comparing the three flux sampling algorithms (CHRR, OPTGP, and ACHR) available in the [COBRA Toolbox](https://opencobra.github.io/cobratoolbox/stable/) (MATLAB) and [COBRApy](https://cobrapy.readthedocs.io/en/latest/) (Python). 
 
 We assess the algorithms' efficiency across three published biological networks: [Arnold2014](https://www.ncbi.nlm.nih.gov/pubmed/24808102), [Poolman2009](http://www.plantphysiol.org/content/151/3/1570), [Gomes2010](http://www.plantphysiol.org/content/152/2/579) as included in the folder. 
 
@@ -14,6 +14,7 @@ We then constrained the [Arnold2014](https://www.ncbi.nlm.nih.gov/pubmed/2480810
 
 Photosynthesis constraints were converted from area to FW measurements (file `XX` contains the conversation ratios) and scaled to a constant flux over an 8 h photoperiod. Constraints were applied to the genome-scale metabolic model of Arnold2014 as done in `XX` and sampling was done using the CHRR algorithm (`Sampling_CHRR.m`). Flux distributions were then plotted to a PDF file (`XX`). 
 
+All scripts for this analysis can be found in the *ArabidopsisStudy* folder. 
 
 ### Contact
 - helena.herrmann@manchester.ac.uk 
