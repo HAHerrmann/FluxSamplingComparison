@@ -17,7 +17,7 @@ Photosynthesis constraints were converted from area to FW measurements and scale
 All scripts for this analysis can be found in the *ArabidopsisStudy* folder. 
 
 ### DOI
-Our most recent Zenodo DOI generate for the journal submission is: 
+Our most recent Zenodo DOI generated for the journal submission is: 
 
 https://doi.org/10.5281/zenodo.3239075 
 
