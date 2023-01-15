@@ -22,5 +22,10 @@ Our most recent Zenodo DOI generated for the journal submission is:
 https://doi.org/10.5281/zenodo.3239075 
 
 ### Contact
-- helena.herrmann@manchester.ac.uk 
+- helena.alexandra.saunders@gmail.com
 - jean-marc.schwartz@manchester.ac.uk
+
+### Citation
+If you are using our work, please cite us at:
+
+Herrmann, H.A., Dyson, B.C., Vass, L. et al. Flux sampling is a powerful tool to study metabolism under changing environmental conditions. npj Syst Biol Appl 5, 32 (2019). https://doi.org/10.1038/s41540-019-0109-0
